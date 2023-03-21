@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"главная"
+})
+
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+		<main>
+			<section class="service">
+				<div class="container">
+					<div class="service__inner">
+						<h2 class="service__title">Услуги массажа</h2>
+						<div class="swiper slider">
+							<div class="swiper-wrapper slider__wrapper">
+								<div class="swiper-slide slider__slide">
+									<h4 class="slider__slide-title">Общий массаж</h4>
+									<img class="slider__slide-img" src="@img/content-slider/1.png" alt="image">
+									<p class="slider__slide-time">60 минут</p>
+									<a class="slider__slide-link" href="about1.html">Подробнее</a>
+									<div class="slider__slide-prices">
+										<p class="slider__slide-price">1500 ₽</p>
+										<p class="slider__slide-oldprice">3000 ₽</p>
+									</div>
+									<button class="popup-link slider__slide-btn" href="#popup">Записаться</button>
+								</div>
+								<div class="swiper-slide slider__slide">
+									<h4 class="slider__slide-title">Массаж шейно-воротниковой зоны</h4>
+									<img class="slider__slide-img" src="@img/content-slider/2.png" alt="image">
+									<p class="slider__slide-time">20 минут</p>
+									<a class="slider__slide-link" href="about2.html">Подробнее</a>
+									<div class="slider__slide-prices">
+										<p class="slider__slide-price">1000 ₽</p>
+										<p class="slider__slide-oldprice">2000 ₽</p>
+									</div>
+									<button class="popup-link slider__slide-btn" href="#popup">Записаться</button>
+								</div>
+								<div class="swiper-slide slider__slide">
+									<h4 class="slider__slide-title">Лимфодренажный массаж</h4>
+									<img class="slider__slide-img" src="@img/content-slider/3.png" alt="image">
+									<p class="slider__slide-time">45 минут</p>
+									<a class="slider__slide-link" href="about3.html">Подробнее</a>
+									<div class="slider__slide-prices">
+										<p class="slider__slide-price">1750 ₽</p>
+										<p class="slider__slide-oldprice">3500 ₽</p>
+									</div>
+									<button class="popup-link slider__slide-btn" href="#popup">Записаться</button>
+								</div>
+								<div class="swiper-slide slider__slide">
+									<h4 class="slider__slide-title">Массаж лица</h4>
+									<img class="slider__slide-img" src="@img/content-slider/4.png" alt="image">
+									<p class="slider__slide-time">20 минут</p>
+									<a class="slider__slide-link" href="about4.html">Подробнее</a>
+									<div class="slider__slide-prices">
+										<p class="slider__slide-price">800 ₽</p>
+										<p class="slider__slide-oldprice">1600 ₽</p>
+									</div>
+									<button class="popup-link slider__slide-btn" href="#popup">Записаться</button>
+								</div>
+							</div>
+							<div class="slider__buttons">
+								<a class="slider__button-prev" href=#><img class="slider__button-previmg"
+										src="@img/content-slider/arrow-l.svg" alt="<"></a>
+								<div class="slider__button-line"></div>
+								<a class="slider__button-next" href=#><img class="slider__button-nextimg"
+										src="@img/content-slider/arrow-r.svg" alt=">"></a>
+							</div>
+						</div>
+						<a id="anchor"></a>
+					</div>
+				</div>
+			</section>
+			<section class="tools">
+				<div class="container">
+					<div class="tools__inner">
+						<div class="form">
+							<h2 class="form__title">Задать вопрос</h2>
+							<div class="form__inputs">
+								<input class="form__input" type="text" placeholder="Введите ваше имя">
+								<input class="form__input" type="text" placeholder="Введите ваш номер">
+							</div>
+							<textarea class="form__textarea" placeholder="Введите ваш вопрос"></textarea>
+							<button class="form__btn" type="submit">Оставить заявку</button>
+						</div>
+						<div class="contacts">
+							<h2 class="contacts__title">Контакты</h2>
+							<div class="contacts__social">
+								<div class="contacts__box">
+									<p class="contacts__text">Номер телефона:</p>
+									<a class="contacts__phone" href="#">+7 (495) 154 - 64 - 43</a>
+								</div>
+								<div class="contacts__box">
+									<p class="contacts__text">Следите за нами в соцсетях:</p>
+									<a class="contacts__instagram" href="#">Инстаграм</a>
+								</div>
+								<div class="contacts__box">
+									<p class="contacts__text">Адрес компании:</p>
+									<div class="contacts__address">г. Москва пр. Ломоносовский, д. 25 / 1</div>
+								</div>
+							</div>
+							<div class="map">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.0834633952952!2d37.532199895130404!3d55.694127879596344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54c5fe40aa6bf%3A0x4d9d6b724062f3d!2z0JvQvtC80L7QvdC-0YHQvtCy0YHQutC40Lkg0L_RgNC-0YHQvy4sIDI1INC60L7RgNC_0YPRgSAxLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MTky!5e0!3m2!1sru!2sua!4v1676563863842!5m2!1sru!2sua"
+									width="460" height="210" style="border:0;" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+							<div class="map-media">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.698868811873!2d37.532986099999995!3d55.694223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54c5fe40aa6bf%3A0x4d9d6b724062f3d!2z0JvQvtC80L7QvdC-0YHQvtCy0YHQutC40Lkg0L_RgNC-0YHQvy4sIDI1INC60L7RgNC_0YPRgSAxLCDQnNC-0YHQutCy0LAsINCg0L7RgdGW0Y8sIDExOTE5Mg!5e0!3m2!1suk!2sua!4v1677350661483!5m2!1suk!2sua"
+									width="619" height="261" style="border:0;" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+							<div class="map-media-320">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.698868811873!2d37.532986099999995!3d55.694223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54c5fe40aa6bf%3A0x4d9d6b724062f3d!2z0JvQvtC80L7QvdC-0YHQvtCy0YHQutC40Lkg0L_RgNC-0YHQvy4sIDI1INC60L7RgNC_0YPRgSAxLCDQnNC-0YHQutCy0LAsINCg0L7RgdGW0Y8sIDExOTE5Mg!5e0!3m2!1suk!2sua!4v1677350780808!5m2!1suk!2sua"
+									width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+							<div class="contacts__schedule">
+								<p class="contacts__schedule-text-strong">График работы:</p>
+								<div class="contacts__schedule-box">
+									<p class="contacts__schedule-textmargin">пн. по сб.<br>вс.</p>
+									<p class="contacts__schedule-text">с 09:00 до 21:00 <br>c 10:00 до 20:00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="popup" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#header" class="popup__close close-popup"><img src="@img/close.svg" alt="x"></a>
+						<h2 class="popup__title">Записаться онлайн</h2>
+						<p class="popup__text">Оставьте свои контакты <br> и мы свяжемся с Вами</p>
+						<div class="popup__inputs">
+							<input type="text" class="popup__input" placeholder="Введите ваше имя">
+							<input type="text" class="popup__input" placeholder="Введите ваш номер">
+						</div>
+						<button class="popup__btn">Записаться</button>
+						<p class="popup__text">Нажимая на кнопку вы соглажаетесь с политикой обработки персональных данных</p>
+						<a class="popup__logo" href="#">
+							<img class="popup__logo-img" src="@img/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	@@include('html/footer.html',{})
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</body>
+
+</html>

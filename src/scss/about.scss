@@ -1,0 +1,99 @@
+.card {
+   margin: 40px 0;   
+   height: 100%;
+   &__inner {
+      display: flex;
+   }
+
+   &__image {
+      min-width: 100%;
+      min-height: 100%;
+      max-width: none;
+   }
+
+   &__box {
+      margin-left: 40px;
+   }
+
+   &__title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #7A4E00;
+      margin-bottom: 20px;
+      height: 88px;
+   }
+   
+   &__text {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      height: 105px;
+      font-size: 18px;
+      line-height: 21px;
+      max-width: 459px;
+      color: #000000;
+      margin-bottom: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -moz-box;
+      -moz-box-orient: vertical;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+   }
+
+   &__continue {
+      display: flex;
+      gap: 103px;
+      margin-bottom: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #7A4E00;
+   }
+
+
+   &__continue-time{
+      display: flex;
+   }
+   &__continue-time::before {
+      content: url('../img/card-images/time.svg');
+      margin-right: 5px;
+   }
+
+   &__price {
+      display: flex;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #7A4E00;
+      gap: 199px;
+   }
+   &__cost {
+      display: flex;
+      gap: 10px;
+   }
+
+   &__cost-value {
+      color: #000000;
+   }
+   
+   &__cost-oldvalue {
+      text-decoration: line-through;
+   }
+
+   &__button {
+      margin-top: 50px;
+      background: #FFCB6F;
+      box-shadow: inset 5px 5px 5px rgba(255, 247, 233, 0.3), inset 0px -5px 4px rgba(122, 78, 0, 0.3);
+      border-radius: 10px;
+      border: none;
+      width: 295px;
+      height: 69px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #7A4E00;
+   }
+}
